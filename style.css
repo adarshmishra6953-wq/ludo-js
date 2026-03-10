@@ -1,0 +1,33 @@
+/* COLORWIZ LUDO MASTER - New Attractive Look */
+body {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.ludo-container {
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.btn-dice {
+    background-color: #ff4757;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px #ff6b81;
+}
+
+.btn-dice:active {
+    box-shadow: 0 0;
+    transform: translateY(4px);
+}
